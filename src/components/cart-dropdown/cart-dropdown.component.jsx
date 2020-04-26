@@ -15,11 +15,11 @@ const CartDropdown = ({cartItems}) => (
   <div className='cart-dropdown'>
     <div className='cart-items' >
       {
-        cartItems.lenth ? (
+        cartItems.length ? (
           cartItems.map(cartItem => (
             <CartItem key={cartItem.id} item={cartItem} />
           ))
-        ) : <span className='empty-cart'>Your Cart Is Empty</span>
+        ) : (<span className='empty-cart'>Your Cart Is Empty</span>)
       }
     </div>
     <CustomButton>GO TO CHECKOUT</CustomButton>
