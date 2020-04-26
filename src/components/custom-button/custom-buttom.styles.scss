@@ -9,17 +9,18 @@
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: 'Open Sans Condensed';
   font-weight: bolder;
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
+  font-family: 'Open Sans', sans-serif;
 
   &:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
   }
 
   &.google-sign-in {

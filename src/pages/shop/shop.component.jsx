@@ -1,4 +1,5 @@
 import React from 'react';
+import './shop.scss';
 
 import SHOP_DATA from './shop.data.js';
 

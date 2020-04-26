@@ -10,6 +10,7 @@
   top: 90px;
   right: 40px;
   z-index: 5;
+  font-family: 'Open Sans', sans-serif;
 
   .cart-items {
     height: 240px;
@@ -20,5 +21,10 @@
 
   button {
     margin-top: auto;
+  }
+
+  .empty-cart {
+    font-size: 18px;
+    margin: 50px auto;
   }
 }
