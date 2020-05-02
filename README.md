@@ -1,4 +1,4 @@
-#Full Stack React Clothing Store
+# Full Stack React Clothing Store
 
 ## Available Scripts
 
